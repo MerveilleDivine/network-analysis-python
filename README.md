@@ -7,7 +7,8 @@ A reproducible network analysis project for Statistical Analysis and Forecasting
 ## Report and downloads
 
 - [Read the full report](Mervine_Muganguzi_Network_Analysis_Report.pdf): equations, figures, results, limitations, all centrality values, and complete Python analysis code.
-- Use **Code → Download ZIP** to download the repository. The **Releases** section also contains the named submission ZIP.
+- [Download the named report-and-code ZIP](downloads/Mervine_Muganguzi_Network_Analysis.zip?raw=true).
+- Use **Code → Download ZIP** to download the complete repository, including its GitHub README. The release page also links to the named submission ZIP.
 - [Open the notebook](run_analysis.ipynb) for a guided entry point.
 
 ## What the analysis covers
