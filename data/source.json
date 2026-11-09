@@ -1,0 +1,20 @@
+{
+  "dataset": "SNAP Social circles: Facebook, friend network 3980",
+  "source_page": "https://snap.stanford.edu/data/ego-Facebook.html",
+  "archive_url": "https://snap.stanford.edu/data/facebook.tar.gz",
+  "source_documentation": "https://snap.stanford.edu/data/readme-Ego.txt",
+  "citation": "J. McAuley and J. Leskovec (2012), Learning to Discover Social Circles in Ego Networks, NIPS 25.",
+  "accessed_date": "2026-11-06",
+  "archive_sha256": "78594c43169b698e99a77741bc298581af87146e4f3d3e8ad48a48361b5d92b6",
+  "scope": "Friends of ego 3980; ego excluded; profile values not used",
+  "unused_source_fields": [
+    "profile feature values",
+    "ego-defined circle memberships"
+  ],
+  "roster_file": "3980.feat",
+  "relationship_file": "3980.edges",
+  "raw_edge_rows": 292,
+  "unique_undirected_edges": 146,
+  "node_count": 59,
+  "anonymized_original_ids_retained": true
+}

@@ -1,0 +1,23 @@
+{
+  "all_checks_passed": true,
+  "centrality_max_absolute_errors": {
+    "degree_formula": 1.3877787807814457e-17,
+    "closeness_formula": 0.0,
+    "betweenness_path_enumeration": 1.6653345369377348e-16,
+    "eigenvector_dense_solution": 5.177983042337075e-12,
+    "pagerank_linear_solution": 1.0160670915748682e-11
+  },
+  "clique_counts_by_recursive_enumeration": {
+    "1": 59,
+    "2": 146,
+    "3": 168,
+    "4": 108,
+    "5": 39,
+    "6": 6
+  },
+  "maximal_cliques_verified": 64,
+  "modularity_absolute_errors": {
+    "full": 5.551115123125783e-17,
+    "main": 0.0
+  }
+}

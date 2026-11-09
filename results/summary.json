@@ -1,0 +1,180 @@
+{
+  "nodes": 59,
+  "edges": 146,
+  "density": 0.0853302162478083,
+  "raw_edge_rows": 292,
+  "duplicate_edge_rows_removed": 146,
+  "average_degree": 4.9491525423728815,
+  "degree_range": [
+    0,
+    18
+  ],
+  "component_sizes": [
+    44,
+    4,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "isolates": [
+    3984,
+    4008,
+    4010,
+    4015,
+    4022,
+    4024,
+    4035
+  ],
+  "main_nodes": 44,
+  "main_edges": 138,
+  "main_diameter": 5,
+  "main_average_distance": 2.5665961945031714,
+  "average_clustering": 0.4069456991441039,
+  "transitivity": 0.45,
+  "triangles": 168,
+  "maximum_clique_size": 6,
+  "maximum_cliques": [
+    [
+      3981,
+      3994,
+      3997,
+      3998,
+      4009,
+      4019
+    ],
+    [
+      3981,
+      3994,
+      3997,
+      3998,
+      4009,
+      4023
+    ],
+    [
+      3981,
+      3994,
+      3997,
+      3998,
+      4018,
+      4023
+    ],
+    [
+      3982,
+      3994,
+      3997,
+      3998,
+      4009,
+      4023
+    ],
+    [
+      3982,
+      3994,
+      3997,
+      4009,
+      4023,
+      4030
+    ],
+    [
+      3986,
+      4000,
+      4017,
+      4021,
+      4026,
+      4030
+    ]
+  ],
+  "people_in_maximum_cliques": 15,
+  "maximal_cliques_size3plus": 44,
+  "full_community_sizes": [
+    15,
+    14,
+    10,
+    5,
+    4,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "full_modularity": 0.45756708575717764,
+  "main_community_sizes": [
+    16,
+    14,
+    11,
+    3
+  ],
+  "main_modularity": 0.4139098928796472,
+  "seed": 42,
+  "resolution": 1,
+  "sensitivity_seeds": [
+    0,
+    29
+  ],
+  "sensitivity_counts": {
+    "4": 11,
+    "5": 19
+  },
+  "sensitivity_modularity_range": [
+    0.4064272211720227,
+    0.4150651123713506
+  ],
+  "sensitivity_ari_range": [
+    0.4406020406455536,
+    1.0
+  ],
+  "top5": {
+    "degree_centrality": [
+      4030,
+      4023,
+      3982,
+      3998,
+      4014
+    ],
+    "closeness": [
+      4023,
+      4030,
+      3998,
+      4014,
+      3982
+    ],
+    "betweenness": [
+      4023,
+      4030,
+      3998,
+      4031,
+      4014
+    ],
+    "eigenvector": [
+      4030,
+      4023,
+      3982,
+      3998,
+      3997
+    ],
+    "pagerank": [
+      4023,
+      4030,
+      3998,
+      3982,
+      4031
+    ]
+  },
+  "versions": {
+    "networkx": "3.7",
+    "matplotlib": "3.10.8",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "python": "3.12.14"
+}

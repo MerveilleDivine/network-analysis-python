@@ -1,0 +1,43 @@
+REVIEW OF THE FACEBOOK NETWORK ANALYSIS
+6 November 2026
+
+The arithmetic was checked again. The original centrality tables, clique
+counts, community assignments and sensitivity results are unchanged. The
+independent verification script and results/verification.json provide an
+additional way to check the saved results.
+
+Clarifications and improvements made:
+
+1. All degree counts are explicitly ties inside the selected friend subgraph.
+   A person's complete Facebook friend count is not observed here.
+2. The six maximum cliques overlap and cover 15 distinct people. They must
+   not be read as six disjoint groups. Clique counts use all 59 nodes.
+3. The 14-group full-network Louvain output includes seven isolates. Their
+   assignment has no effect on modularity. Community counts and seed-dependent
+   partitions are not treated as externally verified social circles.
+4. Graph labels are larger and selective, the main plot has a degree size key,
+   and the degree bar chart uses integer ticks. All IDs and both F/M community
+   memberships are retained in the full appendix and CSV files.
+5. Whole-network and main-component statistics are separated in the summary
+   table. Ambiguous slash-separated pairs were removed.
+6. The betweenness sum explicitly excludes unreachable pairs. The eigenvector
+   explanation gives the component eigenvalues supporting its scope limit.
+   An equation now defines the adjusted Rand index used in the sensitivity check.
+7. Report tables read numerical results instead of hardcoded basic counts.
+   The analysis verifies the source archive hash and each edge's duplication
+   pattern. Report building checks provenance and the stated Louvain settings.
+8. Wording was tightened to describe measured structural roles without implying
+   observed influence, communication, real-world group labels or statistical
+   significance. Software docstrings and compilation errors were clarified.
+9. A factual overstatement in the original limitations was corrected. The
+   archive does provide ego-defined circle memberships (17 circles cover 58 of
+   the 59 roster nodes). This report does not evaluate agreement with them;
+   they are unused reference memberships, not unavailable data. Their anonymous
+   names do not identify family, workplace or other social meaning.
+
+Remaining limits are properties of the dataset and methods, not corrected by
+editing: this is one historical, anonymised, binary friendship subgraph;
+outside ties and the meanings of source circle labels are unknown; Louvain
+is heuristic; and the community results vary across seeds. Agreement with
+the provided circle memberships has not been assessed. The report states
+these limits.

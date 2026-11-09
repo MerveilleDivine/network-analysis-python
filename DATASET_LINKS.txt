@@ -1,0 +1,25 @@
+DATASET USED IN THE REPORT
+
+Stanford SNAP: Social circles - Facebook
+Dataset information and citation:
+https://snap.stanford.edu/data/ego-Facebook.html
+
+Official source archive:
+https://snap.stanford.edu/data/facebook.tar.gz
+
+File-format documentation:
+https://snap.stanford.edu/data/readme-Ego.txt
+
+Selected subset: the friend network of anonymised ego user 3980.
+The ego is excluded. The analysis retains 59 people and 146 unique,
+undirected friendship pairs. Read the node roster from 3980.feat and
+friendships from 3980.edges. Seven isolated nodes must be kept.
+
+The prepared nodes.csv and edges.csv are included in the project data folder.
+The source archive is also included so the analysis can run offline.
+Profile feature values and the provided circle memberships are not analysed.
+
+Citation: J. McAuley and J. Leskovec (2012). Learning to Discover Social
+Circles in Ego Networks. Advances in Neural Information Processing Systems, 25.
+
+The source snapshot was accessed on 6 November 2026.
